@@ -10,7 +10,7 @@ artifacts/
 data/
 dataset/
 datasets/
-Food.com Recipes and Interactions Dataset/
+food-com-recipes-dataset/
 
 *.pth
 *.pt
