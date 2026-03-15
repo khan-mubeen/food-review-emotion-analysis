@@ -24,11 +24,11 @@ The notebook combines exploratory analysis, lexicon-based emotion detection, ing
 
 ```text
 .
-|-- NLP Food Review.ipynb
-|-- Readme.md
+|-- food_review_nlp_analysis.ipynb
+|-- README.md
 |-- requirements.txt
 |-- .gitignore
-|-- data/                         # recommended dataset location
+|-- food-com-recipes-dataset/     # recommended dataset location
 `-- artifacts/                    # generated automatically for models and plots
 ```
 
@@ -49,7 +49,7 @@ The notebook looks for these files in the following locations, in this order:
 - `./data`
 - `./dataset`
 - `./datasets`
-- `./Food.com Recipes and Interactions Dataset`
+- `./food-com-recipes-dataset`
 - project root
 
 ## Quick Start
@@ -61,8 +61,8 @@ The notebook looks for these files in the following locations, in this order:
 pip install -r requirements.txt
 ```
 
-3. Put the dataset files in `data/` or set `FOOD_REVIEW_DATA_DIR`.
-4. Open `NLP Food Review.ipynb`.
+3. Put the dataset files in `food-com-recipes-dataset/` or set `FOOD_REVIEW_DATA_DIR`.
+4. Open `food_review_nlp_analysis.ipynb`.
 5. Run the notebook from top to bottom.
 
 ## What the Notebook Covers
